@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>{{htmlTitle}}</title>
+    <script type="text/javascript" src="http://use.typekit.net/nbm6rcp.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link rel="stylesheet" href="{{yuiGridsUrl}}">
     <link rel="stylesheet" href="{{projectAssets}}/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="{{projectAssets}}/css/main.css" id="site_styles">
@@ -10,6 +12,7 @@
     <link rel="stylesheet" href="{{projectAssets}}/css/lucid.css">
     <link rel="stylesheet" href="{{projectAssets}}/vendor/bootstrap/css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="{{projectAssets}}/favicon.png">
+
 </head>
 <body class="yui3-skin-sam">
 <div class="navbar navbar-fixed-top">
@@ -35,15 +38,15 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="span3">
+<!--       <div class="span3">
 {{>sidebar}}
-        </div>
-        <div class="span9">
-{{>options}}
+        </div> -->
+        <div class="span12">
+<!--{{>options}}-->
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-{{>layout_content}}
+                        {{>layout_content}}
                     </div>
                 </div>
             </div>
